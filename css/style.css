@@ -1,0 +1,130 @@
+/*  General settings */
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background: rgb(85, 25, 82);
+  background: radial-gradient(
+    circle,
+    rgba(85, 25, 82, 1) 0%,
+    rgba(2, 3, 2, 1) 50%,
+    rgba(6, 4, 0, 1) 100%
+  );
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #83faff;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/*  General settings */
+
+/*  Content settings */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 25px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 0;
+  border-right-width: 0.15em;
+  -o-border-image: linear-gradient(#40e0d0, #ff8c00, #ff0080) 1;
+  border-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#40e0d0),
+      color-stop(#ff8c00),
+      to(#ff0080)
+    )
+    1;
+  border-image: linear-gradient(#40e0d0, #ff8c00, #ff0080) 1;
+}
+
+.navlist {
+  display: flex;
+}
+.navlist > li {
+  margin-right: 15px;
+}
+
+.maincontent {
+  display: flex;
+  align-items: center;
+}
+.quickoffer {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  width: 355px;
+  background: #60156c;
+}
+
+.rtahabas{
+    vertical-align: super;
+    margin-left: 13px;
+}
+ 
+
+/*  Content settings */
+
+/* Footer */ 
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* Contact me */
+
+
+.input-contact{
+    width: 48.5%;
+    height: 64px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+}
+
+#message{
+    width: 97%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid;
+}
+
+.gonder{
+    margin-top: 10px;
+    background-color: #60156c;
+    width: 173px;
+    height: 57px;
+    border: 0;
+    border-radius: 8px;
+    float: right;
+    color: #ffffff;
+    cursor: pointer;
+}
+.map{
+    margin-top: 40px;
+}
