@@ -1,6 +1,6 @@
 ## RTBCode
 --- 
-# cssodev
+
 ---
 ## Bu repo [Kodluyoruz](https://www.kodluyoruz.org) kapsamında verilen ödev için oluşturulmuştur
 
